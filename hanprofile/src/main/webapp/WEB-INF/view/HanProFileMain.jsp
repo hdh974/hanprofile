@@ -15,6 +15,9 @@
   
   <style>
    	@media (max-width: 768px){
+   		body{
+   			background: #e8e8e8
+   		}
 		.languge_h2{
 			padding-bottom:20px;
 		}
@@ -70,11 +73,11 @@
       	<div  class="col-md-12 col-sm-12 languge_h2">
       		<h1 style="text-align: center;">LANGUAGE</h1>
       	</div>
-		<div style="text-align:center;" class="col-md-6 col-sm-12 languge_btn_box">
-			<button class="languge_button" onclick="location.href='Korea'" type="button">한 국 어</button>
+		<div style="text-align:center;" class="col-md-6 col-sm-12 col-12 languge_btn_box">
+			<button style="color:#000" class="languge_button" onclick="location.href='Korea'" type="button">한 국 어</button>
 		</div>
-		<div style="text-align:center;" class="col-md-6 col-sm-12 languge_btn_box">
-			<button class="languge_button" onclick="" type="button">日 本 語</button>
+		<div style="text-align:center;" class="col-md-6 col-sm-12 col-12 languge_btn_box">
+			<button style="color:#000" class="languge_button" onclick="" type="button">日 本 語</button>
 		</div>
 
       </div>
