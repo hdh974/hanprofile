@@ -141,11 +141,11 @@
   		var height = $(window).scrollTop();
   		var width = document.body.clientWidth;
   		
-  		if(height>108 && width<751){
+  		if(height>226 && width<751){
   			$(".My_menu_bar").css("display","block");
   			$(".My_menu_box").css("background","#e8e8e8");
   			$(".My_menu_box").addClass("My_menu_box_scroll");
-  		}else if(height<108 && width<751){
+  		}else if(height<226 && width<751){
   			$(".My_menu_bar").css("display","none");
   			$(".My_menu_box").css("background","#fff");
   			$(".My_menu_box").removeClass("My_menu_box_scroll");
@@ -161,18 +161,18 @@
   		
   		
   		
-  		if(height>108 && width<751){
+  		if(height>226 && width<751){
   			$(".My_menu_bar").css("display","block");
   			$(".My_menu_box").css("background","#e8e8e8");
   			$(".My_menu_box").addClass("My_menu_box_scroll");
-  		}else if(height<108 && width<751){
+  		}else if(height<226 && width<751){
   			$(".My_menu_bar").css("display","none");
   			$(".My_menu_box").css("background","#fff");
   			$(".My_menu_box").removeClass("My_menu_box_scroll");
-  		}else if(height>108 && width>751){
+  		}else if(height>226 && width>751){
   			$(".My_menu_box").css("background","#ededed");
   			$(".My_menu_bar").css("display","block");
-  		}else if(height<108 && width>751){
+  		}else if(height<226 && width>751){
   			$(".My_menu_box").css("background","#ededed");
   			$(".My_menu_bar").css("display","block");
   		}
@@ -186,6 +186,12 @@
   			<div class="row">
   				<div class="col-md-12 col-sm-12 col-12 top_box">
   					<h2>안녕하세요!</h2>
+  					<span>
+  						저는 현재 일본에서 재직중입니다.<br>
+  						독학으로 서버부분을 공부하고있습니다.<br>
+  						현재 보고계시는 이 이력서도 azure클라우드로 배포 중 입니다.<br>
+  						또한 이 이력서는 계속 업데이트중에 있으며 현재 마지막 업데이트는 (2023.03.25) 입니다.
+  					</span>
   				</div>		
   				
   				<div class="col-md-2 col-sm-12 col-12 My_menu_bar">
