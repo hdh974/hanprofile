@@ -193,8 +193,8 @@
   					<div class="My_menu_box">
 	  					<a href="#resume" class="My_menu">이 력 서</a>
 	  					<a href="#coverletter" class="My_menu">자 기 소 개 서</a>
-	  					<a href="" class="My_menu">경 력</a>
-	  					<a href="" class="My_menu">스 킬</a>
+	  					<a href="#portpol" class="My_menu">포트폴리오</a>
+	  					<a href="#ky" class="My_menu">경 력</a>
 	  					<a href="/" class="My_menu">HOME</a>
 	  					
 	  					
@@ -837,17 +837,322 @@
 					
 					</div>
 					
-					<!-- 경력서 시작  -->
-					<h1 id="project" class="titles">프 로 젝 트</h1>
+					<!-- 포트폴리오 시작  -->
+					<h1 id="portpol" class="titles">포 트 폴 리 오</h1>
   					
   					<div class="row">
-  						<div class="col-md-12 col-sm-12 col-12 borders">
-  							<span></span>
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+  							<span>기간</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>프로젝트명</span>
+  						</div>
+  						<div class="col-md-4 col-sm-4 col-4 borders years">
+  							<span>구현기능</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>스킬 및 툴</span>
   						</div>
   					</div>
   					
+  					<div class="row">
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+  							<span>
+  								18.03<br>
+  								~<br>
+  								18.07<br>  								
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<div class="row">
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>무인주차장</span>
+  								</div>
+  								<br>
+  								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
+  									<span>대학교</span>
+  								</div>
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>Team</span>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-md-4 col-sm-4 col-4 borders years">
+  							<span>
+  							입출구 차량 접근 감지, 주차 표시, 주차가능 자리 수 표시
+  							
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>
+  								c / c++
+  								Aduino
+  							</span>
+  						</div>
+  					</div>
   					
-  					<!-- 경력서 끝 -->
+  					<div class="row">
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+  							<span>
+  								21.10<br>
+  								~<br>
+  								21.11<br>  								
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<div class="row">
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>레스토랑</span>
+  								</div>
+  								<br>
+  								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
+  									<span>JSL개발원</span>
+  								</div>
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>개인</span>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-md-4 col-sm-4 col-4 borders years">
+  							<span>
+  								레스토랑 메뉴 등록,확인<br>
+  								레스토랑 예약 등록,확인,취소
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>
+  								JAVA, JSP, Servlet,Oracle, HTML, CSS, JavaScript, jQuery
+  							</span>
+  						</div>
+  					</div>
+  					
+  					<div class="row">
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+  							<span>
+  								21.12<br>
+  								~<br>
+  								21.01<br>  								
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<div class="row">
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>쇼핑몰</span>
+  								</div>
+  								<br>
+  								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
+  									<span>JSL개발원</span>
+  								</div>
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>개인</span>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-md-4 col-sm-4 col-4 borders years">
+  							<span>
+  								주문, 회원가입, 회원수정, 회원 관리, 주문확인, 날짜별 관리,
+  								주문기록, 판매상품 등록, 수정, 삭제
+  								구글, 네이버, 카카오 연동 로그인
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>
+  								JAVA, JSP, Servlet,Oracle, HTML, CSS, JavaScript, jQuery
+  							</span>
+  						</div>
+  					</div>
+  					
+  					<div class="row">
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+  							<span>
+  								22.02<br>
+  								~<br>
+  								22.03<br>  								
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<div class="row">
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>중고마켓</span>
+  								</div>
+  								<br>
+  								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
+  									<span>JSL개발원</span>
+  								</div>
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>Team</span>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-md-4 col-sm-4 col-4 borders years">
+  							<span>
+  								주문, 회원가입, 회원수정, 관리, 주문확인, 날짜별 관리,
+  								주문기록, 판매상품 등록, 수정, 삭제,
+  								거래, 채팅, kakaoPay
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>
+  								JAVA, JSP, Servlet,Oracle, HTML, CSS, JavaScript, jQuery
+  							</span>
+  						</div>
+  					</div>
+  					
+  					<div class="row">
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+  							<span>
+  								22.02<br>
+  								~<br>
+  								22.03<br>  								
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<div class="row">
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>중고마켓</span>
+  								</div>
+  								<br>
+  								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
+  									<span>JSL개발원</span>
+  								</div>
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>Team</span>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-md-4 col-sm-4 col-4 borders years">
+  							<span>
+  								주문, 회원가입, 회원수정, 관리, 주문확인, 날짜별 관리,
+  								주문기록, 판매상품 등록, 수정, 삭제,
+  								거래, 채팅, kakaoPay
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>
+  								JAVA, JSP, Servlet,Oracle, HTML, CSS, JavaScript, jQuery
+  							</span>
+  						</div>
+  					</div>
+  					<div class="row">
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+  							<span>
+  								22.02<br>
+  								~<br>
+  								22.03<br>  								
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<div class="row">
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>중고마켓</span>
+  								</div>
+  								<br>
+  								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
+  									<span>JSL개발원</span>
+  								</div>
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>Team</span>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-md-4 col-sm-4 col-4 borders years">
+  							<span>
+  								주문, 회원가입, 회원수정, 관리, 주문확인, 날짜별 관리,
+  								주문기록, 판매상품 등록, 수정, 삭제,
+  								거래, 채팅, kakaoPay, 최근 본 상품
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>
+  								JAVA, JSP, Spring, Servlet,Oracle, HTML, CSS, JavaScript, jQuery
+  							</span>
+  						</div>
+  					</div>
+  					
+  					<div class="row">
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+  							<span>
+  								22.06<br>
+  								~<br>
+  								22.10<br>  								
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<div class="row">
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>쇼핑몰</span>
+  								</div>
+  								<br>
+  								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
+  									<span>개인</span>
+  								</div>
+  								<div class="col-md-12 col-sm-12 col-12 years">
+  									<span>개인</span>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-md-4 col-sm-4 col-4 borders years">
+  							<span>
+  								주문, 회원가입, 회원수정, 관리, 주문확인, 날짜별 관리,
+  								주문기록, 판매상품 등록, 수정, 삭제,
+  								조회수별 best상품
+  							</span>
+  						</div>
+  						<div class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>
+  								JAVA, JSP, Springboot, Servlet, MySQL, HTML, CSS, JavaScript, jQuery
+  							</span>
+  						</div>
+  					</div>
+
+  					<!-- 포트폴리오 끝 -->
+  					<div class="row">
+						<div class="col-md-12 col-sm-12 col-12 change_line">
+							<span>　</span>
+						</div>
+					
+					</div>
+					<!-- 경력 시작 -->
+  					<h1 id="ky" class="titles">경 력</h1>
+  					
+  					<div class="row">
+  						<div style="border-left:none;" class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>회사명</span>
+  						</div>
+  						<div style="border-right:none; border-left:none;" class="col-md-9 col-sm-9 col-9 borders years">
+  							<span>업무내용</span>
+  						</div>
+  					</div>
+  					
+  					<div class="row">
+  						<div style="border-left:none;" class="col-md-3 col-sm-3 col-3 borders years">
+  							<span>
+  								일본 - CAL주식회사<br>
+  								2022.09<br> 
+  								~ <br>
+  								재직중
+  							
+  							</span>
+  						</div>
+  						<div style="border-right:none; border-left:none;" class="col-md-9 col-sm-9 col-9 borders ">
+  							<span>
+  								파격처 - 아이치현 나고야 가스가이 파나소닉에코시스템<br>
+  								업무내용 - 파나소틱내의 웹 소프트웨어 재구축<br>
+  								<br>
+  								맡은업무 <br>
+  								- 22.10 ~ 22.11 파나소닉내서버전용 WEB에서 재고,수리 등 업무리 처리 sql작성 후 파나소닉 관계자는 WEB에서 UI의 표시된 상황을 확인 가능 처리<br>
+  								- 22.11 ~ 23.01 현장에서 스마트폰으로 qr코드 바코드를 처리해서 현재재고, 재고의 위치 등록 처리, 사무적인 부분에서는 제품의 품번생성, qr코드, 바코드를
+  								생성해서 상품의 정보를 서버에 등록 후 스티커 출력, 현재 현장상황을 csv파일로 출력 후 excel파일로 날짜별, 수량별 선택가능 후 표시 기능 처리<br>
+  								<br>
+  								사용 언어 및 툴<br>
+  								JAVA프레임워크 (파나소닉 자사), 오라클, c#(스마트폰 바코드 qr코드처리), VBnet, 아스테리아(파나소닉 자사 소프트웨어)
+  							</span>
+  						</div>
+  					</div>
+  					
+
+
+  					<!-- 경력 끝 -->
   				</div> <!-- 학력 이력 박스  끝-->
   				
   				
