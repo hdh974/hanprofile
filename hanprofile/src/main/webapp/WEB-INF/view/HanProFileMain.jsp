@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>HAN_DU_HWAN</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
@@ -66,7 +66,64 @@
 		outline:none;	
 	}
  </style>
+  <script type="text/javascript">
+  window.onpageshow = function(event) {
+      if ( event.persisted || (window.performance && window.performance.navigation.type == 2)) {
+      // Back Forward Cache로 브라우저가 로딩될 경우 혹은 브라우저 뒤로가기 했을 경우
+     
+      location.href="/";
+    }
+}
   
+  
+  
+  	function japancheck(){
+  		var input = prompt("パスワードを入力してください","");
+
+  		
+  		$.ajax({
+  			type:'post',
+  			url:'/jsonjapan',
+  			data:{
+  				input : input
+  			},
+  			dataType:'text',
+  			success:function(data){
+  				
+  				if(data == null){
+  					return;
+  				}else{
+  					location.href=data
+  				}
+  			}
+  			
+  		})
+  		
+  	}
+  	function koreacheck(){
+  		var input = prompt("비밀번호를입력해주세요","");	
+  		$.ajax({
+  			type:'post',
+  			url:'/jsonkorea',
+  			data:{
+  				input : input
+  			},
+  			dataType:'text',
+  			success:function(data){
+  				
+  				if(data == null){
+  					return;
+  				}else{
+  					location.href=data
+  				}
+  			}
+  			
+  		})
+  		
+  	}
+  
+  
+  </script>
   <body>
     <div style="padding:180px 0 180px 0;" class="container">
       <div class="row">
@@ -74,14 +131,18 @@
       		<h1 style="text-align: center;">LANGUAGE</h1>
       	</div>
 		<div style="text-align:center;" class="col-md-6 col-sm-12 col-12 languge_btn_box">
-			<button style="color:#000" class="languge_button" onclick="location.href='Korea'" type="button">한 국 어</button>
+			<button style="color:#000" class="languge_button" onclick="koreacheck()" type="button">한 국 어</button>
 		</div>
 		<div style="text-align:center;" class="col-md-6 col-sm-12 col-12 languge_btn_box">
-			<button style="color:#000" class="languge_button" onclick="" type="button">日 本 語</button>
+			<button style="color:#000" class="languge_button" onclick="japancheck()" type="button">日 本 語</button>
+		</div>
+		<div style="text-align:center;" class="col-md-6 col-sm-12 col-12 languge_btn_box">
+			<!-- <button style="color:#000" class="languge_button" onclick="koreacheck()" type="button">한 국 어</button> -->
 		</div>
 
       </div>
     </div>
-
+	
+	
   </body>
 </html>

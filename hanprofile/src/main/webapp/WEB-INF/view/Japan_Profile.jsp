@@ -131,10 +131,11 @@
 		width: 100%;
 		z-index:99999;
 		left: 0%;
-		height: 525%;
+		height: 635%;
 	}
 	
   </style>
+
   <script type="text/javascript">
   	$(window).scroll(function(){
   		
@@ -180,28 +181,31 @@
   	})
   
   </script>
-  <body>
+
+  <body id="body" style="disply:none;">
   		
   		<div class="container">
   			<div class="row">
   				<div class="col-md-12 col-sm-12 col-12 top_box">
-  					<h2>안녕하세요!</h2>
+  					<h2>こんにちは!</h2>
   					<span>
-  						저는 현재 일본에서 재직중입니다.<br>
-  						현재도 포트폴리어 + 자기개발을 꾸준히 하고있습니다.<br>
-  						현재 보고계시는 이 이력서 사이트도 azure클라우드를 혼자 독학하고 배포 중 입니다.<br>
-  						또한 이 이력서는 계속 업데이트중에 있으며 현재 마지막 업데이트는 (2023.03.25) 입니다.
+  						私は今日本で働いているハンドゥファン( 韓 斗 煥 )です。<br>
+  						現在も仕事しながら1人でポートフォリオと勉強をしています。<br>
+  						現在ご覧になっている履歴書もアジュールクラウド（AZURE）を独学して
+  						サーバーを構築しています。<br>
+  						また、履歴書は引き続いて更新しています。最後の更新日は2023.03.25です。<br>
+  						宜しくお願い致します。
   					</span>
   				</div>		
   				
   				<div class="col-md-2 col-sm-12 col-12 My_menu_bar">
   					
   					<div class="My_menu_box">
-	  					<a href="#resume" class="My_menu">이 력 서</a>
-	  					<a href="#coverletter" class="My_menu">자 기 소 개 서</a>
-	  					<a href="#portpol" class="My_menu">포트폴리오</a>
-	  					<a href="#ky" class="My_menu">경 력</a>
-	  					<a href="/" class="My_menu">HOME</a>
+	  					<a href="#resume" class="My_menu">履 歴 書</a>
+	  					<a href="#coverletter" class="My_menu">自己ＰＲ</a>
+	  					<a href="#portpol" class="My_menu">ポートフォリオ</a>
+	  					<a href="#ky" class="My_menu">経　歴</a>
+	  					<a href="/" class="My_menu">ホーム</a>
 	  					
 	  					
   					</div>
@@ -209,13 +213,13 @@
   				
   				<div class="col-md-10 col-sm-12 col-12" >
   					<!-- 이력서 시작 -->
-  					<h1 id="resume" class="titles">이 력 서</h1>
+  					<h1 id="resume" class="titles">履 歴 書</h1>
   					<div class="row">
-	  					<div class="col-md-6 col-sm-5 col-5 borders">
-	  						<span>이름 : 한 두 환</span>
+	  					<div class="col-md-6 col-sm-6 col-6 borders">
+	  						<span>フリガナ：ハンドゥファン</span>
 	  					</div>
-	  					<div style="border-right:none;" class="col-md-3 col-sm-4 col-4 borders">
-	  						<span>나이 : 만 27 세</span>
+	  					<div style="border-left:none; border-right:none;" class="col-md-3 col-sm-3 col-3 borders pic1">
+	  						
 	  					</div>
 	  					<div class="col-md-3 col-sm-3 col-3 borders pic1">
 	  						<img class="pic2" src="/resources/static/img/list.png">
@@ -223,10 +227,10 @@
   					</div>
   					<div class="row">
 	  					<div class="col-md-6 col-sm-5 col-5 borders">
-	  						<span>생년월일 : 1996-07-24</span>
+	  						<span>氏名 : 韓 斗 煥</span>
 	  					</div>
 	  					<div style="border-right:none;" class="col-md-3 col-sm-4 col-4 borders">
-	  						<span>성별 : 남</span>
+	  						<span>性別 : 男</span>
 	  					</div>
 	  					<div class="col-md-3 col-sm-3 col-3 borders">
 	  						<span></span>
@@ -234,7 +238,16 @@
   					</div>
   					<div class="row">
   						<div class="col-md-9 col-sm-9 col-9 borders">
-  							<span>이메일 : hdh974@gmail.com</span>
+  							<span>生年月日：1996年07月24日 (満 27 歳 )</span>
+  						</div>
+  					
+  						<div class="col-md-3 col-sm-3 col-3 borders">
+	  						
+	  					</div>
+  					</div>
+  					<div class="row">
+  						<div class="col-md-9 col-sm-9 col-9 borders">
+  							<span>電話 : +81 080-4214-1535</span>
   						</div>
   						<div class="col-md-3 col-sm-3 col-3 borders">
 	  						
@@ -242,7 +255,7 @@
   					</div>
   					<div class="row">
   						<div class="col-md-9 col-sm-9 col-9 borders">
-  							<span>전화 : +82 010-5714-1535</span>
+  							<span>住所 : 愛知県名古屋市西区菊井1丁目６－１ </span>
   						</div>
   						<div class="col-md-3 col-sm-3 col-3 borders">
 	  						
@@ -250,7 +263,7 @@
   					</div>
   					<div class="row">
   						<div class="col-md-9 col-sm-9 col-9 borders">
-  							<span>주소 : 대전광역시 동구 성남동 </span>
+  							<span>メール：hdh974@gmail.com</span>
   						</div>
   						<div class="col-md-3 col-sm-3 col-3 borders">
 	  						
@@ -263,13 +276,13 @@
   					</div>
   					<div class="row">
   						<div class="col-md-2 col-sm-2 col-2 borders years">
-	  						<span >년</span>
+	  						<span>年</span>
 	  					</div>
 	  					<div class="col-md-1 col-sm-1 col-1 borders years">
-	  						<span>월</span>
+	  						<span>月</span>
 	  					</div>
   						<div  class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>학력 및 이력</span>
+  							<span>学歴 ◈ 履歴</span>
   						</div>
   					</div>
   					<div class="row">
@@ -285,7 +298,7 @@
 	  						<span></span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>학 력</span>
+  							<span>学　歴</span>
   						</div>
   					</div>
   					<div class="row">
@@ -296,7 +309,7 @@
 	  						<span>03</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>대전계룡디지텍고등학교 전자제어과 입학</span>
+  							<span>鷄龍デジタルテクノロジー高等学校　入学</span>
   						</div>
   					</div>
   					<div class="row">
@@ -307,18 +320,18 @@
 	  						<span>02</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>대전계룡디지텍고등학교 전자제어과 졸업</span>
+  							<span>鷄龍デジタルテクノロジー高等学校　卒業</span>
   						</div>
   					</div>
   					<div class="row">
   						<div class="col-md-2 col-sm-2 col-2 borders years">
-	  						<span>2017</span>
+	  						<span>2015</span>
 	  					</div>
 	  					<div class="col-md-1 col-sm-1 col-1 borders years">
 	  						<span>03</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>폴리텍&#8547;대학 대전 전기전자제어과 입학</span>
+  							<span>韓国ポリテック大学電気電子制御学科　入学</span>
   						</div>
   					</div>
   					<div class="row">
@@ -329,7 +342,7 @@
 	  						<span>02</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>폴리텍&#8547;대학 대전 전기전자제어과 졸업</span>
+  							<span>폴리텍&#8547;韓国ポリテック大学電気電子制御学科　卒業</span>
   						</div>
   					</div>
   					<div class="row">
@@ -340,7 +353,7 @@
 	  						<span>06</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>JSL인재개발원 ICT전문과정트랙2 5기 입학</span>
+  							<span>JSL人材開発院　グローバルICT専門家養成課程トラックⅡ5期　入学</span>
   						</div>
   					</div>
   					<div class="row">
@@ -351,7 +364,7 @@
 	  						<span>05</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>JSL인재개발원 ICT전문과정트랙2 5기 수료</span>
+  							<span>JSL人材開発院　グローバルICT専門家養成課程トラックⅡ5期　修了見込み</span>
   						</div>
   					</div>
   					
@@ -375,33 +388,58 @@
 	  						<span></span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>이 력</span>
+  							<span>職　歴</span>
   						</div>
   					</div>
   					
+  					<div class="row">
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+	  						<span>2015</span>
+	  					</div>
+	  					<div class="col-md-1 col-sm-1 col-1 borders years">
+	  						<span>05</span>
+	  					</div>
+  						<div class="col-md-9 col-sm-9 col-9 borders years">
+  							<span>大韓民国陸軍　入隊</span>
+  						</div>
+  					</div>
+  					
+  					<div class="row">
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+	  						<span>2016</span>
+	  					</div>
+	  					<div class="col-md-1 col-sm-1 col-1 borders years">
+	  						<span>01</span>
+	  					</div>
+  						<div class="col-md-9 col-sm-9 col-9 borders years">
+  							<span>大韓民国陸軍　除隊</span>
+  						</div>
+  					</div>
+  					
+  					<div class="row">
+  						<div class="col-md-2 col-sm-2 col-2 borders years">
+	  						<span>2017</span>
+	  					</div>
+	  					<div class="col-md-1 col-sm-1 col-1 borders years">
+	  						<span>10</span>
+	  					</div>
+  						<div class="col-md-9 col-sm-9 col-9 borders years">
+  							<span>南陽乳業天安第一工場　入社(オペレーター）</span>
+  						</div>
+  					</div>
   					<div class="row">
   						<div class="col-md-2 col-sm-2 col-2 borders years">
 	  						<span>2018</span>
 	  					</div>
 	  					<div class="col-md-1 col-sm-1 col-1 borders years">
-	  						<span>10</span>
+	  						<span>06</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>남양유업 천안 입사 - 오퍼레이터(계약직)</span>
+  							<span>南陽乳業天安第一工場　退職</span>
   						</div>
   					</div>
   					
-  					<div class="row">
-  						<div class="col-md-2 col-sm-2 col-2 borders years">
-	  						<span>2019</span>
-	  					</div>
-	  					<div class="col-md-1 col-sm-1 col-1 borders years">
-	  						<span>02</span>
-	  					</div>
-  						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>남양유업 천안 퇴사 - 오퍼레이터(계약직)</span>
-  						</div>
-  					</div>
+  					
   					
   					<div class="row">
   						<div class="col-md-2 col-sm-2 col-2 borders years">
@@ -411,10 +449,9 @@
 	  						<span>10</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>일본 워킹홀리데이 이자카야 입사(아르바이트)</span>
+  							<span>（日本）　株式会社　鳥貴族　千歳船橋店　入社（アルバイト）</span>
   						</div>
   					</div>
-  					
   					<div class="row">
   						<div class="col-md-2 col-sm-2 col-2 borders years">
 	  						<span>2020</span>
@@ -423,7 +460,7 @@
 	  						<span>02</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>일본 - 이자카야 점장으로 승격</span>
+  							<span>（日本）　株式会社　鳥貴族　千歳船橋店　店長に昇格</span>
   						</div>
   					</div>
   					
@@ -435,7 +472,7 @@
 	  						<span>02</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>일본 - 이자카야 퇴사</span>
+  							<span>（日本）　株式会社　鳥貴族　千歳船橋店　退職</span>
   						</div>
   					</div>
   					
@@ -447,7 +484,7 @@
 	  						<span>05</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>JSL인재개발원 IT멘토담당</span>
+  							<span>JSL人材開発院 ITメンター </span>
   						</div>
   					</div>
   					
@@ -459,7 +496,7 @@
 	  						<span>09</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>일본 - CAL주식회사 입사 (재직중)</span>
+  							<span>日本 - CAL株式会社 入社 (　在籍中　)</span>
   						</div>
   					</div>
   					
@@ -482,17 +519,17 @@
 					
 					</div>
 					<!-- 자기소개서 시작 -->
-  					<h1 id="coverletter" class="titles">자 기 소 개 서</h1>
+  					<h1 id="coverletter" class="titles">自　己　P　R</h1>
   					
   					<div class="row">
   						<div class="col-md-2 col-sm-2 col-2 borders years">
-	  						<span>년</span>
+	  						<span>年</span>
 	  					</div>
 	  					<div class="col-md-1 col-sm-1 col-1 borders years">
-	  						<span>월</span>
+	  						<span>月</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>자격증</span>
+  							<span>資格</span>
   						</div>
   					</div>
   					
@@ -510,7 +547,7 @@
 	  						<span>05</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>ITQ - 한글(A), 파워포인트(A), 엑셀(B)</span>
+  							<span>MOS Master (Excel, Powerpoint)</span>
   						</div>
   					</div>
   					
@@ -522,7 +559,7 @@
 	  						<span>02</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>전자기기기능사</span>
+  							<span>電子機器技能士</span>
   						</div>
   					</div>
   					
@@ -534,7 +571,7 @@
 	  						<span>01</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>JLPT 2급 (N2)</span>
+  							<span>JLPT 2級　(N2)</span>
   						</div>
   					</div>
   					
@@ -546,7 +583,7 @@
 	  						<span>05</span>
 	  					</div>
   						<div class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>정보처리산업기사</span>
+  							<span> 情報処理産業技師</span>
   						</div>
   					</div>
   					
@@ -570,25 +607,17 @@
   					
   					<div class="row">
   						<div style="border-left: none" class="col-md-12 col-sm-12 col-12 borders years">
-	  						<span>자 기 소 개</span>
+	  						<span>自己ＰＲ</span>
 	  					</div>
   					</div>
   					
   					<div class="row">
   						<div style="border-left: none" class="col-md-12 col-sm-12 col-12 borders">
 	  						<span>
-	  						나만의 색깔을 만드는 것이 저의 어필 포인트라고 말할 수 있습니다.
-	  						나의 색깔은 응용력, 적응력, 속도 가 저의 색깔이라고 말할 수 있습니다.
-	  						응용력은 언어의 흐름을 공부를 할 때 하나의 흐름으로 하나만 생각하는것이 아닌 직접 뜯고 고치며 여러 곳에 나의 생각도 넣어보고
-	  						좀 더 넓은 방향으로 실험을 하고 여러방향으로 응용합니다.
-	  						적응력은 저는 지는것이 싫고, 또한 할 수 있을까지 라는 집념이 제 주변 동료를 힘들게 할 수 있다고 생각합니다. 하지만 
-	  						저에게 취미는 운동, 카페방문 등을 즐기고 있으며 IT업계에서 일하면서 부족한 운동을 동료들과 함께 아웃도어 생활을 권유하고
-	  						팀의 일원으로써 항상 동료를 배려하며 같이 팀워크를 이끌어 두꺼운 신뢰감을 만들어갑니다.
-	  						속도는 저의 강력한 장점이자 단점이라고 할 수 있습니다. 단점은 저는 속도의 비해서 오타로 인해 코드를 작성 할 때 에러가 자주 나옵니다.
-	  						하지만 그로 인해서 에러의 종류 이유를 잘 파악할 수 있게 되었으며, 장점은 제가 일하는 속도가 빠름으로 인해서 일의 효율을 높였습니다.
-	  						위와 같이 저의 색깔이라고 말할 수 있습니다. 또한 IT업계에서는 하루아침으로 기술이 진화하고 있다고 생각해 그것에 맞춰서 따라가기 위해
-	  						저는 퇴근 후에도 공부하지못한 언어자료, 유튜브, 책 등을 공부하고 찾아보며 자기자신을 개발해오며 새로운 것을 알았을 때는 아직 나는 성장 가능성이 있다고 긍정적인 생각으로
-	  						늘 전진해 갑니다.
+	  						　どんなことでもまずはやってみるところが、私の一番の長所です。通常は誰かのデータを調べて使用すれば自ら経験をしなくても良いと思われがちですが、私自身は経験は一つのデータだと思い、人は経験することでデータを増やしていくものだと考えています。特にIT業界で働くなら、自ら勉強しながらやってみることが何よりも大事だと思い、本やインターネットなどを参考にした経験をもとにして私の色が発揮できるように、自分なりのやり方でITに適用しようと努めています。
+　その中でも私が最も得意とするのは応用で、様々な知識や今までの経験を用いて自分だけのスキルを作り出します。例えば、居酒屋で店長をした時、店の管理や仕込みの仕方を色々な店で習いましたが、それを基に自分でもっと簡単で効率的に出来る方法を考え出したところ、その方法を他の店舗にも教えるようになったことがあります。
+　また、趣味の運動を通して、初対面の人でも自分から声をかけて仲良くなり、良いチームワークの雰囲気を作るために努力します。ITは座っている時間が多く、運動不足なりやすいですが、この趣味を活かして解消していこうと思っています。
+　私の長所を活かして、何事にもまずはやってみて、自分なりに工夫して効率よく業務が進められるように努力して参ります。
 	  						</span>
 	  					</div>
   					</div>
@@ -601,28 +630,28 @@
   					
   					<div class="row">
   						<div style="border-left:none;" class="col-md-12 col-sm-12 col-12 borders years">
-  							<span>IT 스 킬</span>
+  							<span>IT スキル</span>
   						</div>
   						<div style="border-right:none; border-left:none;" class="col-md-12 col-sm-12 col-12 borders years">
-  							<span>1-독학 ,2-학교, 3-프로젝트 서포터, 4-프로젝트 메인, 5-실무</span>
+  							<span>ーーーーーレベル説明ーーーーー<br>1-独学 ,2-専門機関, 3-プロジェクト経験あるが少し助けが必要, 4-プロジェクト経験ある, 5-実務経験がある</span>
   						</div>
   					</div>
   					
   					<div class="row">
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>구분</span>
+  							<span>区分</span>
   						</div>
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>스킬 항목</span>
+  							<span>スキル項目</span>
   						</div>
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>레 벨</span>
+  							<span>レベル</span>
   						</div>
   					</div>
   					
   					<div class="row">
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>개발언어</span>
+  							<span>開発言語</span>
   						</div>
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
   							<span>JAVA</span>
@@ -634,7 +663,7 @@
   					
   					<div class="row">
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>개발언어</span>
+  							<span>開発言語</span>
   						</div>
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
   							<span>JSP & SERVLET</span>
@@ -646,7 +675,7 @@
   					
   					<div class="row">
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>개발언어</span>
+  							<span>開発言語</span>
   						</div>
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
   							<span>C#</span>
@@ -658,7 +687,7 @@
   					
   					<div class="row">
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>개발언어</span>
+  							<span>開発言語</span>
   						</div>
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
   							<span>JavaScript</span>
@@ -670,7 +699,7 @@
   					
   					<div class="row">
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>개발언어</span>
+  							<span>開発言語</span>
   						</div>
   						<div  class="col-md-4 col-sm-4 col-4 borders years">
   							<span>C / C++</span>
@@ -844,56 +873,20 @@
 					</div>
 					
 					<!-- 포트폴리오 시작  -->
-					<h1 id="portpol" class="titles">포 트 폴 리 오</h1>
+					<h1 id="portpol" class="titles">ポートフォリオ</h1>
   					
   					<div class="row">
   						<div class="col-md-2 col-sm-2 col-2 borders years">
-  							<span>기간</span>
+  							<span>期間</span>
   						</div>
   						<div class="col-md-3 col-sm-3 col-3 borders years">
-  							<span>프로젝트명</span>
+  							<span>プロジェクト名</span>
   						</div>
   						<div class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>구현기능</span>
+  							<span>担当業務</span>
   						</div>
   						<div class="col-md-3 col-sm-3 col-3 borders years">
-  							<span>스킬 및 툴</span>
-  						</div>
-  					</div>
-  					
-  					<div class="row">
-  						<div class="col-md-2 col-sm-2 col-2 borders years">
-  							<span>
-  								18.03<br>
-  								~<br>
-  								18.07<br>  								
-  							</span>
-  						</div>
-  						<div class="col-md-3 col-sm-3 col-3 borders years">
-  							<div class="row">
-  								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>무인주차장</span>
-  								</div>
-  								<br>
-  								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
-  									<span>대학교</span>
-  								</div>
-  								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>Team</span>
-  								</div>
-  							</div>
-  						</div>
-  						<div class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>
-  							입출구 차량 접근 감지, 주차 표시, 주차가능 자리 수 표시
-  							
-  							</span>
-  						</div>
-  						<div class="col-md-3 col-sm-3 col-3 borders years">
-  							<span>
-  								c / c++
-  								Aduino
-  							</span>
+  							<span>言語とツール</span>
   						</div>
   					</div>
   					
@@ -908,21 +901,21 @@
   						<div class="col-md-3 col-sm-3 col-3 borders years">
   							<div class="row">
   								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>레스토랑</span>
+  									<span>RESTAURANT</span>
   								</div>
   								<br>
   								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
-  									<span>JSL개발원</span>
+  									<span>JSL開発院</span>
   								</div>
   								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>개인</span>
+  									<span>個人</span>
   								</div>
   							</div>
   						</div>
   						<div class="col-md-4 col-sm-4 col-4 borders years">
   							<span>
-  								레스토랑 메뉴 등록,확인<br>
-  								레스토랑 예약 등록,확인,취소
+  								レストラン予約システム
+								予約、確認、キャンセル
   							</span>
   						</div>
   						<div class="col-md-3 col-sm-3 col-3 borders years">
@@ -943,22 +936,21 @@
   						<div class="col-md-3 col-sm-3 col-3 borders years">
   							<div class="row">
   								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>쇼핑몰</span>
+  									<span>THE SHOP</span>
   								</div>
   								<br>
   								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
-  									<span>JSL개발원</span>
+  									<span>JSL開発院</span>
   								</div>
   								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>개인</span>
+  									<span>個人</span>
   								</div>
   							</div>
   						</div>
   						<div class="col-md-4 col-sm-4 col-4 borders years">
   							<span>
-  								주문, 회원가입, 회원수정, 회원 관리, 주문확인, 날짜별 관리,
-  								주문기록, 판매상품 등록, 수정, 삭제
-  								구글, 네이버, 카카오 연동 로그인
+  								インターネットショッピングシステム
+  								注文、注文確認、日付別注文確認
   							</span>
   						</div>
   						<div class="col-md-3 col-sm-3 col-3 borders years">
@@ -979,98 +971,27 @@
   						<div class="col-md-3 col-sm-3 col-3 borders years">
   							<div class="row">
   								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>중고마켓</span>
+  									<span>UNIVERSE</span>
   								</div>
   								<br>
   								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
-  									<span>JSL개발원</span>
+  									<span>JSL人材開発院</span>
   								</div>
   								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>Team</span>
+  									<span>チーム</span>
   								</div>
   							</div>
   						</div>
   						<div class="col-md-4 col-sm-4 col-4 borders years">
   							<span>
-  								주문, 회원가입, 회원수정, 관리, 주문확인, 날짜별 관리,
-  								주문기록, 판매상품 등록, 수정, 삭제,
-  								거래, 채팅, kakaoPay
+  								中古品サイト
+								商品登録、取引、
+								サイトにお金をチャージ,チャット機能、
   							</span>
   						</div>
   						<div class="col-md-3 col-sm-3 col-3 borders years">
   							<span>
   								JAVA, JSP, Servlet,Oracle, HTML, CSS, JavaScript, jQuery
-  							</span>
-  						</div>
-  					</div>
-  					
-  					<div class="row">
-  						<div class="col-md-2 col-sm-2 col-2 borders years">
-  							<span>
-  								22.02<br>
-  								~<br>
-  								22.03<br>  								
-  							</span>
-  						</div>
-  						<div class="col-md-3 col-sm-3 col-3 borders years">
-  							<div class="row">
-  								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>중고마켓</span>
-  								</div>
-  								<br>
-  								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
-  									<span>JSL개발원</span>
-  								</div>
-  								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>Team</span>
-  								</div>
-  							</div>
-  						</div>
-  						<div class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>
-  								주문, 회원가입, 회원수정, 관리, 주문확인, 날짜별 관리,
-  								주문기록, 판매상품 등록, 수정, 삭제,
-  								거래, 채팅, kakaoPay
-  							</span>
-  						</div>
-  						<div class="col-md-3 col-sm-3 col-3 borders years">
-  							<span>
-  								JAVA, JSP, Servlet,Oracle, HTML, CSS, JavaScript, jQuery
-  							</span>
-  						</div>
-  					</div>
-  					<div class="row">
-  						<div class="col-md-2 col-sm-2 col-2 borders years">
-  							<span>
-  								22.02<br>
-  								~<br>
-  								22.03<br>  								
-  							</span>
-  						</div>
-  						<div class="col-md-3 col-sm-3 col-3 borders years">
-  							<div class="row">
-  								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>중고마켓</span>
-  								</div>
-  								<br>
-  								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
-  									<span>JSL개발원</span>
-  								</div>
-  								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>Team</span>
-  								</div>
-  							</div>
-  						</div>
-  						<div class="col-md-4 col-sm-4 col-4 borders years">
-  							<span>
-  								주문, 회원가입, 회원수정, 관리, 주문확인, 날짜별 관리,
-  								주문기록, 판매상품 등록, 수정, 삭제,
-  								거래, 채팅, kakaoPay, 최근 본 상품
-  							</span>
-  						</div>
-  						<div class="col-md-3 col-sm-3 col-3 borders years">
-  							<span>
-  								JAVA, JSP, Spring, Servlet,Oracle, HTML, CSS, JavaScript, jQuery
   							</span>
   						</div>
   					</div>
@@ -1086,22 +1007,22 @@
   						<div class="col-md-3 col-sm-3 col-3 borders years">
   							<div class="row">
   								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>쇼핑몰</span>
+  									<span>HANULSO</span>
   								</div>
   								<br>
   								<div style="border-top:1px solid; border-bottom:1px solid" class="col-md-12 col-sm-12 col-12 years">
-  									<span>개인</span>
+  									<span>個人</span>
   								</div>
   								<div class="col-md-12 col-sm-12 col-12 years">
-  									<span>개인</span>
+  									<span>個人</span>
   								</div>
   							</div>
   						</div>
   						<div class="col-md-4 col-sm-4 col-4 borders years">
   							<span>
-  								주문, 회원가입, 회원수정, 관리, 주문확인, 날짜별 관리,
-  								주문기록, 판매상품 등록, 수정, 삭제,
-  								조회수별 best상품
+  								SHOPPINGMALL
+  								注文、登録、修正、管理、注文確認、日別確認、注文記録、ベスト商品
+								クエリ練習のため
   							</span>
   						</div>
   						<div class="col-md-3 col-sm-3 col-3 borders years">
@@ -1119,39 +1040,39 @@
 					
 					</div>
 					<!-- 경력 시작 -->
-  					<h1 id="ky" class="titles">경 력</h1>
+  					<h1 id="ky" class="titles">経　歴</h1>
   					
   					<div class="row">
   						<div style="border-left:none;" class="col-md-3 col-sm-3 col-3 borders years">
-  							<span>회사명</span>
+  							<span>会社名</span>
   						</div>
   						<div style="border-right:none; border-left:none;" class="col-md-9 col-sm-9 col-9 borders years">
-  							<span>업무내용</span>
+  							<span>業務内容</span>
   						</div>
   					</div>
   					
   					<div class="row">
   						<div style="border-left:none;" class="col-md-3 col-sm-3 col-3 borders years">
   							<span>
-  								일본 - CAL주식회사<br>
+  								CAL株式会社<br>
   								2022.09<br> 
   								~ <br>
-  								재직중
+  								在籍中
   							
   							</span>
   						</div>
   						<div style="border-right:none; border-left:none;" class="col-md-9 col-sm-9 col-9 borders ">
   							<span>
-  								파견처 - 아이치현 나고야 가스가이 파나소닉에코시스템<br>
-  								업무내용 - 파나소틱내의 웹 소프트웨어 재구축<br>
+  								派遣先 - 愛知県、春日井市、パナソニックエコシステム<br>
+  								業務内容 - パナソニックないのウェブやソフトウェア再構築<br>
   								<br>
-  								맡은업무 <br>
-  								- 22.10 ~ 22.11 파나소닉내서버전용 WEB에서 재고,수리 등 업무리 처리 sql작성 후 파나소닉 관계자는 WEB에서 UI의 표시된 상황을 확인 가능 처리<br>
-  								- 22.11 ~ 23.01 현장에서 스마트폰으로 qr코드 바코드를 처리해서 현재재고, 재고의 위치 등록 처리, 사무적인 부분에서는 제품의 품번생성, qr코드, 바코드를
-  								생성해서 상품의 정보를 서버에 등록 후 스티커 출력, 현재 현장상황을 csv파일로 출력 후 excel파일로 날짜별, 수량별 선택가능 후 표시 기능 처리<br>
+  								担当業務 <br>
+  								- 22.10 ~ 22.11 パナソニックサーバーのウェブで在庫確認（修理、販売、不良等）処理クエリ作成、UI作成<br>
+  								- 22.11 ~ 23.01 日付別クエリ作成、登録されてない商品のQRとバーコード作成後登録、登録されている商品は現在棚番と在庫と工場を確認クエリ作成
+  								CSV出力できるようにコード作成設定した日別でexcelで出力する。
   								<br>
-  								사용 언어 및 툴<br>
-  								JAVA프레임워크 (파나소닉 자사), 오라클, c#(스마트폰 바코드 qr코드 스캔처리 DB처리), VBnet, 아스테리아(파나소닉 자사 소프트웨어)
+  								言語 ⋆ ツール<br>
+  								JAVA＿FW (パナソニック＿FW), Oracle, c#, VBnet
   							</span>
   						</div>
   					</div>
@@ -1163,15 +1084,14 @@
   						</div>
   						<div style="border-right:none; border-left:none;" class="col-md-9 col-sm-9 col-9 borders ">
   							<span>
-  								파견처 - 아이치현 나고야 가미마에즈 동화시스템(東和システム)<br>
-  								업무내용 - ALPEN WEB<br>
+  								派遣先 - 愛知県、名古屋市、東和システム<br>
+  								業務内容 - アルペンのアプリ画面改造、アルペンのWebスマホ用の機能と画面作成<br>
   								<br>
-  								맡은업무 <br>
-  								- 23.02 ~ 23.04 ALPEN(브랜드 운동복) 점포별 재고 등록, 확인, 스마트폰 반응형 UI작성, 개조, 신상품 등록 시 바코드 작성,스캔 처리,
-  								점포 내 직원 출근 퇴근 처리 어플 제작 , 프린터기 어드레스별 따로 바코드출력(2대가 블루트스 ON상태일때 가까이있는 프린터기 어드레스를 스캔 하면 가까이있는 스캔기에서 출력)<br>
- 								
-  								사용 언어 및 툴<br>
-  								이클립스, CSS, HTML, JSP, JAVASCRIPT, MSSQL ,SEASAR2(경량프레임워크),Android Studio(java,kotlin)
+  								担当業務 <br>
+  								- 23.02 ~ 23.04 店舗別在庫登録、確認、スマホ反応UI作成、改造、,バーコードスキャン処理、バーコードをスキャンする時DBで情報がない場合新商品登録処理。
+  								店舗の社員勤怠管理等処理、プリンター機が１つ以上の場合プリンター機のアドレスをスキャンするとそのプリンター機で出力される。<br>
+  								言語 ⋆ ツール<br>
+  								JAVA, CSS, HTML, JSP, JAVASCRIPT, MSSQL ,SEASAR2(FW),ANDROID STUDIO(KOTLIN,JAVA)
   							</span>
   						</div>
   					</div>
@@ -1183,18 +1103,17 @@
   						</div>
   						<div style="border-right:none; border-left:none;" class="col-md-9 col-sm-9 col-9 borders ">
   							<span>
-  								파견처 - 아이치현 나고야 가미마에즈 동화시스템(東和システム)<br>
-  								업무내용 - <br>
+  								派遣先 - <br>
+  								業務内容 - <br>
   								<br>
-  								맡은업무 <br>
+  								担当業務 <br>
   								<br>
-  								사용 언어 및 툴<br>
+  								言語 ⋆ ツール<br>
 					
   								
   							</span>
   						</div>
   					</div>
-  					
 
 
   					<!-- 경력 끝 -->
