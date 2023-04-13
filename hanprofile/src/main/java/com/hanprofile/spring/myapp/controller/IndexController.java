@@ -102,7 +102,7 @@ public class IndexController {
 			return "";
 		}
 	}
-	@RequestMapping("rireki")
+	@RequestMapping("hanrireki")
 	public ModelAndView rireki(ModelAndView mav) {
 		
 		
